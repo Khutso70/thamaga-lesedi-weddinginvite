@@ -1,16 +1,4 @@
-/**
-* Template Name: NiceRestaurant
-* Template URL: https://bootstrapmade.com/nice-restaurant-bootstrap-template/
-* Updated: Jun 06 2025 with Bootstrap v5.3.6
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --default-font: 'Roboto', system-ui, -apple-system, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
@@ -78,7 +66,7 @@ body::before {
       color-mix(in srgb, #000000, transparent 30%),
       color-mix(in srgb, #000000, transparent 30%)
     ),
-    url('../img/bg/abstract-bg-2.jpg') no-repeat center center/cover;
+    url('../wedding/THEM-2.jpeg') no-repeat center center/cover;
   content: '';
   position: fixed;
   inset: 0;
@@ -1068,6 +1056,14 @@ section,
 .about .about-content p {
   margin-bottom: 20px;
   line-height: 1.8;
+}
+.store-logo {
+  max-height: 70px;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background: #fff;
+  padding: 4px;
 }
 
 .about .about-content p.fst-italic {
